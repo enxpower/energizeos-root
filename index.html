@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EnergizeOS — Energy Management & Analytics</title>
+  <meta name="description" content="EnergizeOS builds practical energy management software for PV, BESS and microgrids. Real-time strategy, demand charge management, and zero-export control." />
+  <link rel="canonical" href="https://energizeos.com/" />
+  <!-- AdSense ownership meta ONLY (no ad scripts here) -->
+  <meta name="google-adsense-account" content="ca-pub-4635648547987111" />
+
+  <style>
+    :root{--fg:#0b1220;--muted:#5b6780;--brand:#005ad6;--bg:#f7f9fc;}
+    *{box-sizing:border-box} body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;background:var(--bg);color:var(--fg)}
+    a{color:var(--brand);text-decoration:none} a:hover{text-decoration:underline}
+    header{position:sticky;top:0;background:#fff;border-bottom:1px solid #e8eef7;z-index:10}
+    .wrap{max-width:1120px;margin:0 auto;padding:20px}
+    nav{display:flex;gap:16px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+    nav .left{display:flex;gap:16px;align-items:center}
+    nav .left .logo{font-weight:700}
+    nav .right a{color:var(--fg)}
+    .hero{padding:56px 0}
+    .hero h1{margin:0 0 8px;font-size:36px;line-height:1.2}
+    .hero p{margin:0;color:var(--muted);max-width:780px}
+    section{padding:40px 0;background:#fff;margin-bottom:16px;border:1px solid #e8eef7;border-radius:12px}
+    h2{margin:0 0 10px;font-size:22px}
+    ul{margin:0 0 0 1.2em}
+    .grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+    .card{border:1px solid #e8eef7;border-radius:12px;padding:16px;background:#fff}
+    footer{padding:32px 0;color:var(--muted)}
+    .pill{display:inline-block;padding:2px 10px;border:1px solid #e8eef7;border-radius:999px;background:#f8fbff;color:#254}
+  </style>
+
+  <!-- JSON-LD Organization -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"EnergizeOS",
+    "url":"https://energizeos.com/",
+    "sameAs":["https://www.linkedin.com/company/energizeos"],
+    "contactPoint":[{
+      "@type":"ContactPoint",
+      "contactType":"customer support",
+      "email":"info@energizeos.com",
+      "availableLanguage":["en","zh"]
+    }]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <div class="left">
+          <div class="logo">EnergizeOS</div>
+          <span class="pill">Energy Management & Analytics</span>
+        </div>
+        <div class="right">
+          <a href="#product">Product</a>
+          &nbsp;·&nbsp;<a href="#solutions">Solutions</a>
+          &nbsp;·&nbsp;<a href="#cases">Case Studies</a>
+          &nbsp;·&nbsp;<a href="https://media.energizeos.com/">News</a>
+          &nbsp;·&nbsp;<a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="hero">
+      <h1>Operational EMS for PV &amp; BESS</h1>
+      <p>
+        We build practical energy management software for commercial &amp; industrial microgrids:
+        real-time strategy control, demand charge management, grid-tie/island transition, and zero-export.
+        Designed for reliability first, then cost savings.
+      </p>
+    </div>
+
+    <section id="product">
+      <div class="wrap">
+        <h2>Product</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>EnergizeOS EMS</h3>
+            <p>Modular control apps for PV, BESS and diesel coordination. Policies are traceable and auditable, built for operations rather than demos.</p>
+            <ul>
+              <li>Strategy engine with guard-rails and thresholding</li>
+              <li>Demand Charge Management (DCM)</li>
+              <li>Grid-tie / island transition</li>
+              <li>Zero-export / backfeed protection</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Visualization</h3>
+            <p>Real-time strategy simulators and live dashboards for operators and owners.</p>
+            <p><a href="https://viz.energizeos.com/" rel="noopener">Open a live strategy viz →</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="solutions">
+      <div class="wrap">
+        <h2>Solutions</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>PV Self-Consumption</h3>
+            <p>Use more on-site PV while keeping feeder limits and export rules satisfied.</p>
+          </div>
+          <div class="card">
+            <h3>Demand Charge Management</h3>
+            <p>Peak shaving with battery dispatch that respects cycle limits and grid constraints.</p>
+          </div>
+          <div class="card">
+            <h3>Microgrid Reliability</h3>
+            <p>Fail-safe interlocks, deterministic fallbacks, and clear operator workflows.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cases">
+      <div class="wrap">
+        <h2>Case Studies (high-level)</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>C&amp;I Campus</h3>
+            <p>PV 1.5 MW + BESS 2 MWh: reduced midday export while holding a tight PCC limit.</p>
+          </div>
+          <div class="card">
+            <h3>Remote microgrid</h3>
+            <p>Diesel coordination and smooth transition between grid-tie and island.</p>
+          </div>
+        </div>
+        <p style="margin-top:10px">More updates: <a href="https://media.energizeos.com/">media.energizeos.com</a></p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:info@energizeos.com">info@energizeos.com</a> &nbsp;|&nbsp; LinkedIn: <a href="https://www.linkedin.com/company/energizeos" rel="noopener">EnergizeOS</a></p>
+        <p><a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© 2025 Energize Solutions Inc. All rights reserved.</div>
+  </footer>
+</body>
+</html>
